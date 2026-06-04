@@ -66,8 +66,32 @@ This work was made possible by **QIM Group volunteers who donated their time** t
 Its creation was catalyzed by the **Consciousness Studies Club** and its brain-computer-interface
 lab, whose research environment and instrument needs sparked this work.
 
+## Disclaimer
+
+This is research firmware, provided **"as is" without warranty of any kind** (see
+[`LICENSE`](LICENSE)), and — per the status notice at the top — it is **untested on
+hardware**. It is **not a medical device** and is not intended for clinical,
+diagnostic, or any safety-critical use.
+
+Flashing custom firmware to an OpenBCI Cyton (PIC32MX250F128B) is done **entirely at
+your own risk**, including the risk of rendering the board inoperable. Responsibility
+for any use rests solely with the user. Anyone who builds, flashes, copies, modifies,
+or redistributes this firmware is solely responsible for:
+
+- the safety of their own hardware, electrical setup, and electrode application;
+- obtaining any required ethics / institutional review board approval and informed
+  consent before recording from human participants;
+- compliance with all applicable laws, regulations, and data-protection rules in
+  their jurisdiction.
+
+To the maximum extent permitted by law, the authors and contributors, the
+**Consciousness Studies Club** and its brain-computer-interface lab, and the
+**QIM Group** accept no liability for any loss, harm, damage, or hardware failure
+arising from use of this firmware. Using it constitutes acceptance of these terms.
+
 ## License
 
 Additive contributions in this repository are released under the MIT License
 (Copyright (c) 2026 QIM Group and contributors) — see [`LICENSE`](LICENSE). The vendored
-OpenBCI firmware remains under its original OpenBCI MIT license.
+OpenBCI firmware remains under its original OpenBCI MIT license. Reproduced third-party
+copyright and permission notices are in [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
